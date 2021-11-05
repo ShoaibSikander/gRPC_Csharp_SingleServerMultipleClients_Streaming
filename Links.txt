@@ -1,0 +1,12 @@
+Server Stream call
+https://docs.microsoft.com/en-us/aspnet/core/grpc/client?view=aspnetcore-3.0
+https://www.youtube.com/watch?v=F2T6xNRoa1E
+
+Client Stream call
+https://docs.microsoft.com/en-us/aspnet/core/grpc/client?view=aspnetcore-3.0
+https://www.youtube.com/watch?v=DNxdvRQ4qRQ
+
+Bidirectional Stream Call
+https://docs.microsoft.com/en-us/aspnet/core/grpc/client?view=aspnetcore-3.0
+https://www.youtube.com/watch?v=wY4nMSUF9e0
+https://www.youtube.com/watch?v=6fiSsxEY4dg

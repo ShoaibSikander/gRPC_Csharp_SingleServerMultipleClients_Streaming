@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+service testing
+{
+  rpc TestWorkUnary (TestReq) returns (TestResp);
+  rpc TestWorkServerStream (TestReq) returns (stream TestResp);
+  rpc TestWorkClientStream (stream TestReq) returns (TestResp);
+  rpc TestWorkBidirectionalStream (stream TestReq) returns (stream TestResp);
+}
+
+message TestReq
+{
+  string req = 1;
+}
+
+message TestResp
+{
+  string resp = 1;
+}
